@@ -1,0 +1,3 @@
+
+curl -sO http://54.151.32.15:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://54.151.32.15:8080/ -secret e9152f8daeec05b46799574d6ef786aa1b06e904ea87c9f7c066c57a03fff028 -name "test_agent" -webSocket -workDir "/home/jenkins"
